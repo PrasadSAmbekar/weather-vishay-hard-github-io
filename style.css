@@ -1,0 +1,153 @@
+body {
+	font-family: Arial, sans-serif;
+	/* background-color: lightblue; */
+	margin: 0;
+	padding: 0;
+	background-color: #f2f2f2;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+main {
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+section {
+	margin: 20px 0;
+}
+
+#search {
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+}
+
+label {
+	font-size: 20px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #888;
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.city, .hourly, .daily {
+	background-color: white;
+	box-shadow: 1px 1px 1px #888;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+}
+
+.weather img {
+	max-width: 100px;
+}
+
+.weather p {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.hourly p, .daily p {
+	font-size: 18px;
+	margin: 5px 0;
+}
+
+#hourly-weather, #daily-weather {
+	display: none;
+}
+
+.tab {
+	background-color: #ddd;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.tab:hover {
+	background-color: #ccc;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+	.city, .hourly, .daily {
+		width: 100%;
+	}
+}
+section {
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+  }
+  
+  table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  th, td {
+	padding: 10px;
+	text-align: center;
+  }
+  
+  th {
+	background-color: #333;
+	color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  td img {
+	max-width: 50px;
+	height: auto;
+  }
+  
